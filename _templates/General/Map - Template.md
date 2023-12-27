@@ -11,4 +11,7 @@ defaultZoom: 7
 height: 100%
 draw: false
 scale: 1000
+bounds:
+	[<0>,<0>],
+	[<1000>,<1000>]
 ```

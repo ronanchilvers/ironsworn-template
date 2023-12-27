@@ -1,11 +1,9 @@
 ---
 created: 2023-07-07 11:29
+banner: "![[banner.jpg]]"
+banner_y: 0.41714
+banner_lock: true1
 ---
-![[banner.jpg]]
-
-> [!abstract]- The Adventure Seed
-> Add the adventure seed here. Give a rough overview of the general plot - what's happening, what the characters are supposed to do, etc
-
 # Scenes
 ```button
 name Create new scene
