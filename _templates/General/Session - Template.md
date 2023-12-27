@@ -1,6 +1,6 @@
 ---
 created: <% tp.date.now("YYYY-MM-DD HH:mm") %>
-tags: [scene]
+tags: [session]
 ---
 > [!scene] <% tp.file.cursor(1) %>
 > **Location:** 

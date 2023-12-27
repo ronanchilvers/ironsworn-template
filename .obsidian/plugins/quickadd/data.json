@@ -2,18 +2,18 @@
   "choices": [
     {
       "id": "2484d28b-61bc-403c-b5aa-d02a711e3535",
-      "name": "New Scene",
+      "name": "New Session",
       "type": "Template",
       "command": true,
-      "templatePath": "_templates/Mythic/Scene - Template.md",
+      "templatePath": "_templates/General/Session - Template.md",
       "fileNameFormat": {
-        "enabled": false,
-        "format": ""
+        "enabled": true,
+        "format": "{{DATE:YYYY-MM-DD}}"
       },
       "folder": {
         "enabled": true,
         "folders": [
-          "Game/Scenes"
+          "Game/Sessions"
         ],
         "chooseWhenCreatingNote": false,
         "createInSameFolderAsActiveFile": false,
@@ -27,8 +27,8 @@
       },
       "openFile": true,
       "openFileInMode": "source",
-      "fileExistsMode": "Increment the file name",
-      "setFileExistsBehavior": false
+      "fileExistsMode": "Append to the bottom of the file",
+      "setFileExistsBehavior": true
     },
     {
       "id": "a9a761a8-ffdd-4d55-b153-5a90d18ab618",
@@ -94,8 +94,8 @@
       "id": "86ba3865-786b-4c4e-a272-5f511131e8e1",
       "name": "New Character",
       "type": "Template",
-      "command": false,
-      "templatePath": "_templates/Tiny Dungeon/Character - Template.md",
+      "command": true,
+      "templatePath": "_templates/General/Character or Creature - Template.md",
       "fileNameFormat": {
         "enabled": false,
         "format": ""
@@ -154,8 +154,8 @@
       "id": "d64b0124-86cc-43fd-835a-47aa4f7bcf54",
       "name": "New Creature",
       "type": "Template",
-      "command": false,
-      "templatePath": "_templates/Tiny Dungeon/Creature - Template.md",
+      "command": true,
+      "templatePath": "_templates/General/Character or Creature - Template.md",
       "fileNameFormat": {
         "enabled": false,
         "format": ""

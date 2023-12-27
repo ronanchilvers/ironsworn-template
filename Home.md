@@ -4,17 +4,17 @@ banner: "![[banner.jpg]]"
 banner_y: 0.41714
 banner_lock: true1
 ---
-# Scenes
+# Sessions
 ```button
-name Create new scene
+name Create new session
 type command
-action Quickadd: New Scene
+action Quickadd: New Session
 ```
 ^button-new-scene
 ```dataview
 List
 From -"_templates"
-Where contains(file.tags, "scene") 
+Where contains(file.tags, "session") 
 Sort file.name desc
 ```
 
@@ -25,10 +25,16 @@ type command
 action Quickadd: New Character
 ```
 ^button-new-character
+```button
+name Create new creature
+type command
+action Quickadd: New Creature
+```
+^button-new-creature
 ```dataview
 List 
 From -"_templates"
-Where contains(file.tags, "character")
+Where contains(file.tags, "character") or contains(file.tags, "creature")
 Sort file.name
 ```
 
@@ -43,20 +49,6 @@ action Quickadd: New Map
 List 
 From -"_templates"
 Where contains(file.tags, "map")
-Sort file.name
-```
-
-# Creatures
-```button
-name Create new creature
-type command
-action Quickadd: New Creature
-```
-^button-new-creature
-```dataview
-List
-From -"_templates"
-Where contains(file.tags, "creature") 
 Sort file.name
 ```
 
