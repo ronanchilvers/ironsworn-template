@@ -1,9 +1,10 @@
 ---
 created: 2023-07-07 11:29
+banner: "![[banner.jpg]]"
+banner_y: 0.3
+banner_lock: true
 ---
-![[banner.jpg]]
-
-> [!abstract]- The Adventure Seed
+> [!abstract] The Adventure Seed
 > Add the adventure seed here. Give a rough overview of the general plot - what's happening, what the characters are supposed to do, etc
 
 # Scenes
@@ -31,6 +32,20 @@ action Quickadd: New Character
 List 
 From -"_templates"
 Where contains(file.tags, "character")
+Sort file.name
+```
+
+# NPCs
+```button
+name Create new NPC
+type command
+action Quickadd: New NPC
+```
+^button-new-npc
+```dataview
+List
+From -"_templates"
+Where contains(file.tags, "npc")
 Sort file.name
 ```
 

@@ -65,7 +65,7 @@
       "name": "New Place",
       "type": "Template",
       "command": true,
-      "templatePath": "_templates/General/Place - Template.md",
+      "templatePath": "_templates/Pages/Place.md",
       "fileNameFormat": {
         "enabled": false,
         "format": ""
@@ -94,8 +94,8 @@
       "id": "86ba3865-786b-4c4e-a272-5f511131e8e1",
       "name": "New Character",
       "type": "Template",
-      "command": false,
-      "templatePath": "_templates/Tiny Dungeon/Character - Template.md",
+      "command": true,
+      "templatePath": "_templates/Ironsworn/Character - Template.md",
       "fileNameFormat": {
         "enabled": false,
         "format": ""
@@ -124,7 +124,7 @@
       "id": "f8bf1937-ddf4-46c8-aa69-c7ea093ddbb3",
       "name": "New Setting",
       "type": "Template",
-      "command": true,
+      "command": false,
       "templatePath": "_templates/General/Setting - Template.md",
       "fileNameFormat": {
         "enabled": false,
@@ -154,8 +154,8 @@
       "id": "d64b0124-86cc-43fd-835a-47aa4f7bcf54",
       "name": "New Creature",
       "type": "Template",
-      "command": false,
-      "templatePath": "_templates/Tiny Dungeon/Creature - Template.md",
+      "command": true,
+      "templatePath": "_templates/Pages/Creature.md",
       "fileNameFormat": {
         "enabled": false,
         "format": ""
@@ -164,6 +164,36 @@
         "enabled": true,
         "folders": [
           "Almanac/Creatures"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "source",
+      "fileExistsMode": "Increment the file name",
+      "setFileExistsBehavior": false
+    },
+    {
+      "id": "d2a9dd3d-9e85-4f1e-b94b-4d2c39eae076",
+      "name": "New NPC",
+      "type": "Template",
+      "command": true,
+      "templatePath": "_templates/Pages/NPC.md",
+      "fileNameFormat": {
+        "enabled": false,
+        "format": ""
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "Almanac/NPCs"
         ],
         "chooseWhenCreatingNote": false,
         "createInSameFolderAsActiveFile": false,
