@@ -1,5 +1,4 @@
 [
-  "obsidian-dice-roller",
   "table-editor-obsidian",
   "templater-obsidian",
   "custom-classes",
@@ -7,5 +6,6 @@
   "quickadd",
   "obsidian-leaflet-plugin",
   "buttons",
-  "obsidian-banners"
+  "obsidian-banners",
+  "obsidian-dice-roller"
 ]
