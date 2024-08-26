@@ -2,10 +2,10 @@
   "choices": [
     {
       "id": "2484d28b-61bc-403c-b5aa-d02a711e3535",
-      "name": "New Scene",
+      "name": "New Session",
       "type": "Template",
       "command": true,
-      "templatePath": "_templates/Pages/Scene.md",
+      "templatePath": "_templates/Pages/Session.md",
       "fileNameFormat": {
         "enabled": false,
         "format": ""
@@ -13,7 +13,7 @@
       "folder": {
         "enabled": true,
         "folders": [
-          "Game/Scenes"
+          "Game/Sessions"
         ],
         "chooseWhenCreatingNote": false,
         "createInSameFolderAsActiveFile": false,

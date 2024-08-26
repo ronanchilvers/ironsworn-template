@@ -13,5 +13,6 @@
   "mobilePullAction": "switcher:open",
   "alwaysUpdateLinks": true,
   "propertiesInDocument": "hidden",
-  "strictLineBreaks": false
+  "strictLineBreaks": false,
+  "promptDelete": false
 }

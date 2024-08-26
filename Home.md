@@ -7,17 +7,17 @@ banner_lock: true
 > [!abstract] The Adventure Seed
 > Add the adventure seed here. Give a rough overview of the general plot - what's happening, what the characters are supposed to do, etc
 
-# Scenes
+# Sessions
 ```button
-name Create new scene
+name Create new session
 type command
-action Quickadd: New Scene
+action Quickadd: New Session
 ```
 ^button-new-scene
 ```dataview
 List
 From -"_templates"
-Where contains(file.tags, "scene") 
+Where contains(file.tags, "session") 
 Sort file.name desc
 ```
 
@@ -32,6 +32,20 @@ action Quickadd: New Character
 List 
 From -"_templates"
 Where contains(file.tags, "character")
+Sort file.name
+```
+
+# Creatures
+```button
+name Create new creature
+type command
+action Quickadd: New Creature
+```
+^button-new-creature
+```dataview
+List 
+From -"_templates"
+Where contains(file.tags, "character") or contains(file.tags, "creature")
 Sort file.name
 ```
 
@@ -60,20 +74,6 @@ action Quickadd: New Map
 List 
 From -"_templates"
 Where contains(file.tags, "map")
-Sort file.name
-```
-
-# Creatures
-```button
-name Create new creature
-type command
-action Quickadd: New Creature
-```
-^button-new-creature
-```dataview
-List
-From -"_templates"
-Where contains(file.tags, "creature") 
 Sort file.name
 ```
 
