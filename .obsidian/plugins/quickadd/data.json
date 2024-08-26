@@ -5,7 +5,7 @@
       "name": "New Scene",
       "type": "Template",
       "command": true,
-      "templatePath": "_templates/Mythic/Scene - Template.md",
+      "templatePath": "_templates/Pages/Scene.md",
       "fileNameFormat": {
         "enabled": false,
         "format": ""
@@ -35,7 +35,7 @@
       "name": "New Map",
       "type": "Template",
       "command": true,
-      "templatePath": "_templates/General/Map - Template.md",
+      "templatePath": "_templates/Pages/Map.md",
       "fileNameFormat": {
         "enabled": false,
         "format": ""
@@ -95,7 +95,7 @@
       "name": "New Character",
       "type": "Template",
       "command": true,
-      "templatePath": "_templates/Ironsworn/Character - Template.md",
+      "templatePath": "_templates/Pages/Character.md",
       "fileNameFormat": {
         "enabled": false,
         "format": ""
@@ -124,8 +124,8 @@
       "id": "f8bf1937-ddf4-46c8-aa69-c7ea093ddbb3",
       "name": "New Setting",
       "type": "Template",
-      "command": false,
-      "templatePath": "_templates/General/Setting - Template.md",
+      "command": true,
+      "templatePath": "_templates/Pages/Setting.md",
       "fileNameFormat": {
         "enabled": false,
         "format": ""
