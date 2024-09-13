@@ -1,11 +1,11 @@
 [
+  "dataview",
   "table-editor-obsidian",
   "templater-obsidian",
-  "custom-classes",
-  "dataview",
   "quickadd",
-  "obsidian-leaflet-plugin",
   "buttons",
   "obsidian-banners",
+  "obsidian-leaflet-plugin",
+  "custom-classes",
   "obsidian-dice-roller"
 ]
