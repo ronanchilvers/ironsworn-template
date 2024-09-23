@@ -81,6 +81,20 @@
       "resultText": "[4, 5] + [4]",
       "timestamp": 1724742240440,
       "id": "3qMthcBNlq2I"
+    },
+    {
+      "result": 6,
+      "original": "2d10 1d6",
+      "resultText": "[8, 5] [6]",
+      "timestamp": 1726207750871,
+      "id": "MRRFaRln6sBs"
+    },
+    {
+      "result": 2,
+      "original": "2d10 1d6",
+      "resultText": "[9, 6] [2]",
+      "timestamp": 1726207756722,
+      "id": "VWMwO0Vqwmh7"
     }
   ]
 }
